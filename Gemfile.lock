@@ -1,9 +1,13 @@
 PATH
   remote: .
   specs:
+    oauth (0.4.7)
     omniauth-copy (0.1.0)
       omniauth (~> 1.0)
-      omniauth-oauth
+      omniauth-oauth (~> 1.0.1)
+    omniauth-oauth (1.0.1)
+      oauth
+      omniauth (~> 1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -35,13 +39,9 @@ GEM
     lumberjack (1.0.3)
     method_source (0.8.1)
     multi_json (1.7.2)
-    oauth (0.4.7)
     omniauth (1.1.4)
       hashie (>= 1.2, < 3)
       rack
-    omniauth-oauth (1.0.1)
-      oauth
-      omniauth (~> 1.0)
     pry (0.9.12.1)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
