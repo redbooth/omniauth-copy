@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Copy::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth', '~> 1.0.1'
+  gem.add_dependency 'omniauth-oauth', '~> 1.1'
   gem.add_development_dependency 'rspec', '~> 2.7'
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'simplecov'
